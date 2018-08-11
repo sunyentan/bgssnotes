@@ -20,7 +20,7 @@ class HomeController < ApplicationController
       cheatsheet_path = File.join(Rails.root, 'app','assets', 'pdfs', 'meme.jpg')
       send_file cheatsheet_path
     elsif subject == 'fce_ct_1'
-      cheatsheet_path = File.join(Rails.root, 'app','assets', 'pdfs', 'meme1.jpg')
+      cheatsheet_path = File.join(Rails.root, 'app','assets', 'pdfs', 'fce CT 1.pdf')
       send_file cheatsheet_path
     end
   end
